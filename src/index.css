@@ -1,0 +1,39 @@
+@import "primereact/resources/themes/lara-light-blue/theme.css";
+@import "primereact/resources/primereact.min.css";
+@import "primeicons/primeicons.css";
+
+/* Layout */
+.app-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* Table spacing */
+.p-datatable {
+  font-size: 14px;
+}
+
+/* Clamp long text */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Overlay panel spacing */
+.overlay-content {
+  min-width: 200px;
+}
+
+.overlay-label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 13px;
+}
+
+.overlay-actions {
+  margin-top: 12px;
+  text-align: right;
+}
